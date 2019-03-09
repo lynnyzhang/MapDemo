@@ -12,10 +12,18 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 	var window: UIWindow?
-
-
+	var nav: UINavigationController?
+	let rootVC = MapViewController()
+	
 	func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 		// Override point for customization after application launch.
+		window = UIWindow(frame: UIScreen.main.bounds)
+		nav = UINavigationController(rootViewController: rootVC)
+		window?.rootViewController = nav
+		window?.makeKeyAndVisible()
+		
+		TwitterAPI.getToken()
+		
 		return true
 	}
 

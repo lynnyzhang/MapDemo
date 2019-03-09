@@ -8,6 +8,15 @@
 
 import UIKit
 
-class Queue: NSObject {
-
+struct Queue<T> {
+	var list = [T]()
+	var limit = 100
+	
+	mutating func enqueue(_ element: T) -> T?{
+		list.append(element)
+		if list.count > limit {
+			return list.removeFirst()
+		}
+		return nil
+	}
 }

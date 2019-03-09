@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "closure #1 in static TwitterAPI.searchNearBy(geoLocation:):TwitterAPI.swift">
+      </ContextState>
+      <ContextState
+         contextName = "MapViewController.mapView(_:annotationView:calloutAccessoryControlTapped:):MapViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.navigationController">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "static TwitterAPI.searchNearBy(geoLocation:):TwitterAPI.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "TwitterAPI.bearer">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "static ServerCommManager.query(_:):ServerCommManager.swift">
+      </ContextState>
+      <ContextState
+         contextName = "ServerCommManager.sendRequest(urlPath:verb:headers:paramData:onSuccess:onFail:):ServerCommManager.swift">
+      </ContextState>
+      <ContextState
+         contextName = "TweetPost.init(json:):TweetPost.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "NSSelectorFromString(keyName)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "static TwitterAPI.request(_:):TwitterAPI.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "TwitterAPI.bearer">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "static TwitterAPI.getToken():TwitterAPI.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "TwitterAPI.bearer">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in ServerCommManager.sendRequest(urlPath:verb:headers:paramData:onSuccess:onFail:):ServerCommManager.swift">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

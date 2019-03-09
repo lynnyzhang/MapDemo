@@ -8,20 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		DF9644C72230B5C900ACD0C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9644C62230B5C900ACD0C7 /* AppDelegate.swift */; };
-		DF9644C92230B5C900ACD0C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9644C82230B5C900ACD0C7 /* ViewController.swift */; };
-		DF9644CC2230B5C900ACD0C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF9644CA2230B5C900ACD0C7 /* Main.storyboard */; };
+		DF9644C92230B5C900ACD0C7 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9644C82230B5C900ACD0C7 /* MapViewController.swift */; };
 		DF9644CE2230B5CA00ACD0C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF9644CD2230B5CA00ACD0C7 /* Assets.xcassets */; };
 		DF9644D12230B5CA00ACD0C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF9644CF2230B5CA00ACD0C7 /* LaunchScreen.storyboard */; };
+		DF9644DA2230BA0400ACD0C7 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9644D92230BA0400ACD0C7 /* MapView.swift */; };
+		DF9644DE2230C0CB00ACD0C7 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9644DC2230C0CB00ACD0C7 /* UIViewControllerExtension.swift */; };
+		DF9644DF2230C0CB00ACD0C7 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9644DD2230C0CB00ACD0C7 /* UIViewExtension.swift */; };
+		DF9644E22230C88700ACD0C7 /* TweetPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9644E12230C88700ACD0C7 /* TweetPost.swift */; };
+		DF9644E52230F6F400ACD0C7 /* ServerCommManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9644E42230F6F400ACD0C7 /* ServerCommManager.swift */; };
+		DF9644E72231039900ACD0C7 /* TwitterAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9644E62231039900ACD0C7 /* TwitterAPI.swift */; };
+		DF9644E92231136400ACD0C7 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9644E82231136400ACD0C7 /* Queue.swift */; };
+		DF9644EB2231992700ACD0C7 /* MapManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9644EA2231992700ACD0C7 /* MapManager.swift */; };
+		DF9644ED2231DFA400ACD0C7 /* MapTweetAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9644EC2231DFA400ACD0C7 /* MapTweetAnnotation.swift */; };
+		DF9644F32233364400ACD0C7 /* template.html in Resources */ = {isa = PBXBuildFile; fileRef = DF9644F22233364400ACD0C7 /* template.html */; };
+		DF9644F52233376A00ACD0C7 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9644F42233376900ACD0C7 /* WebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DF9644C32230B5C800ACD0C7 /* TweetsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TweetsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF9644C62230B5C900ACD0C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DF9644C82230B5C900ACD0C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DF9644CB2230B5C900ACD0C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF9644C82230B5C900ACD0C7 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		DF9644CD2230B5CA00ACD0C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF9644D02230B5CA00ACD0C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF9644D22230B5CA00ACD0C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF9644D92230BA0400ACD0C7 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		DF9644DC2230C0CB00ACD0C7 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		DF9644DD2230C0CB00ACD0C7 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		DF9644E12230C88700ACD0C7 /* TweetPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetPost.swift; sourceTree = "<group>"; };
+		DF9644E42230F6F400ACD0C7 /* ServerCommManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerCommManager.swift; sourceTree = "<group>"; };
+		DF9644E62231039900ACD0C7 /* TwitterAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterAPI.swift; sourceTree = "<group>"; };
+		DF9644E82231136400ACD0C7 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		DF9644EA2231992700ACD0C7 /* MapManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MapManager.swift; path = TweetsDemo/Models/MapManager.swift; sourceTree = SOURCE_ROOT; };
+		DF9644EC2231DFA400ACD0C7 /* MapTweetAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTweetAnnotation.swift; sourceTree = "<group>"; };
+		DF9644F22233364400ACD0C7 /* template.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = template.html; sourceTree = "<group>"; };
+		DF9644F42233376900ACD0C7 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +74,56 @@
 		DF9644C52230B5C800ACD0C7 /* TweetsDemo */ = {
 			isa = PBXGroup;
 			children = (
+				DF9644E32230F6B800ACD0C7 /* ServerComm */,
+				DF9644E02230C7CD00ACD0C7 /* Models */,
+				DF9644DB2230C04C00ACD0C7 /* Extension */,
+				DF9644D82230B9C100ACD0C7 /* Controller */,
 				DF9644C62230B5C900ACD0C7 /* AppDelegate.swift */,
-				DF9644C82230B5C900ACD0C7 /* ViewController.swift */,
-				DF9644CA2230B5C900ACD0C7 /* Main.storyboard */,
 				DF9644CD2230B5CA00ACD0C7 /* Assets.xcassets */,
 				DF9644CF2230B5CA00ACD0C7 /* LaunchScreen.storyboard */,
 				DF9644D22230B5CA00ACD0C7 /* Info.plist */,
+				DF9644F22233364400ACD0C7 /* template.html */,
 			);
 			path = TweetsDemo;
+			sourceTree = "<group>";
+		};
+		DF9644D82230B9C100ACD0C7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DF9644F42233376900ACD0C7 /* WebViewController.swift */,
+				DF9644D92230BA0400ACD0C7 /* MapView.swift */,
+				DF9644C82230B5C900ACD0C7 /* MapViewController.swift */,
+				DF9644EA2231992700ACD0C7 /* MapManager.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DF9644DB2230C04C00ACD0C7 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DF9644DC2230C0CB00ACD0C7 /* UIViewControllerExtension.swift */,
+				DF9644DD2230C0CB00ACD0C7 /* UIViewExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		DF9644E02230C7CD00ACD0C7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DF9644E12230C88700ACD0C7 /* TweetPost.swift */,
+				DF9644E82231136400ACD0C7 /* Queue.swift */,
+				DF9644EC2231DFA400ACD0C7 /* MapTweetAnnotation.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DF9644E32230F6B800ACD0C7 /* ServerComm */ = {
+			isa = PBXGroup;
+			children = (
+				DF9644E42230F6F400ACD0C7 /* ServerCommManager.swift */,
+				DF9644E62231039900ACD0C7 /* TwitterAPI.swift */,
+			);
+			path = ServerComm;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +184,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF9644F32233364400ACD0C7 /* template.html in Resources */,
 				DF9644D12230B5CA00ACD0C7 /* LaunchScreen.storyboard in Resources */,
 				DF9644CE2230B5CA00ACD0C7 /* Assets.xcassets in Resources */,
-				DF9644CC2230B5C900ACD0C7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +197,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF9644C92230B5C900ACD0C7 /* ViewController.swift in Sources */,
+				DF9644E72231039900ACD0C7 /* TwitterAPI.swift in Sources */,
+				DF9644ED2231DFA400ACD0C7 /* MapTweetAnnotation.swift in Sources */,
+				DF9644F52233376A00ACD0C7 /* WebViewController.swift in Sources */,
+				DF9644DF2230C0CB00ACD0C7 /* UIViewExtension.swift in Sources */,
+				DF9644DE2230C0CB00ACD0C7 /* UIViewControllerExtension.swift in Sources */,
+				DF9644E52230F6F400ACD0C7 /* ServerCommManager.swift in Sources */,
+				DF9644C92230B5C900ACD0C7 /* MapViewController.swift in Sources */,
+				DF9644E22230C88700ACD0C7 /* TweetPost.swift in Sources */,
+				DF9644EB2231992700ACD0C7 /* MapManager.swift in Sources */,
+				DF9644DA2230BA0400ACD0C7 /* MapView.swift in Sources */,
+				DF9644E92231136400ACD0C7 /* Queue.swift in Sources */,
 				DF9644C72230B5C900ACD0C7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,14 +215,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DF9644CA2230B5C900ACD0C7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DF9644CB2230B5C900ACD0C7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DF9644CF2230B5CA00ACD0C7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,6 +347,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57DCX63XSB;
 				INFOPLIST_FILE = TweetsDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -291,7 +356,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.lynx.TweetsDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -300,6 +365,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57DCX63XSB;
 				INFOPLIST_FILE = TweetsDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -308,7 +374,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.lynx.TweetsDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
