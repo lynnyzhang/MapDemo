@@ -114,7 +114,8 @@ final class MapViewModel: NSObject {
         isLoading = true
         errorMessage = nil
         do {
-            let places = try await NearBySearchAPI.searchNearBy(types: [selectedFilter.rawValue],
+            let filterValue = (selectedFilter == .noFilter) ? [] : [selectedFilter.rawValue]
+            let places = try await NearBySearchAPI.searchNearBy(types: filterValue,
                                                                 latitude: coordinate.latitude,
                                                                 longitude: coordinate.longitude)
             lastFetchLocation = coordinate

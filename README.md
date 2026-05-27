@@ -2,6 +2,11 @@
 
 SwiftUI iOS app that shows nearby Google Places on a MapKit map. Built with Swift 6, targeting iOS 18+.
 
+## Demo video and & screenshot
+Video:https://github.com/user-attachments/assets/fe9a829c-dac4-4e4b-975b-a9b3d8d49bc5 
+
+Screenshot: <img width="375" height="667" alt="mapdemo_pin_resized" src="https://github.com/user-attachments/assets/784c1de0-8a31-4aad-bf00-4022f1e0f92f" />
+
 ## Requirements
 
 - Xcode 16+
