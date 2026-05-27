@@ -41,5 +41,7 @@
 	</array>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>$(PRODUCT_NAME) requires access to your phone’s location to show your location when viewing the map.</string>
+	<key>GooglePlacesAPIKey</key>
+	<string>$(GOOGLE_PLACES_API_KEY)</string>
 </dict>
 </plist>
